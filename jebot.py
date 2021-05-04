@@ -56,7 +56,7 @@ async def help(client, message):
 
 Just send a Youtube url to download it in video or audio format!
 
-~ @Infinity_BOTs</b>""",
+~ @supunma</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(

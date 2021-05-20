@@ -90,7 +90,7 @@ async def about(client, message):
                                         InlineKeyboardButton(
                                             "Back", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "Source Code", url="https://github.com/supunmadurangasl/AnyDL-Bot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -319,7 +319,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @Infinity_BOTs
+Join @slbotzone
 """
 )
 

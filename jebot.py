@@ -28,9 +28,7 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm AnyDL Bot
-
-I can download video or audio from Youtube. Made by @supunma 🇱🇰
+               text="""<b>ලොකු හැලි ලියන්නේ නැ බොක්ක හැදුවේ සුපුන් මදුරංග ඔනේම youtube video & audio download කරන්න පුළුවන් මට 😋😋 channel එක subscribe කලේ නැත්නම් තොට හෙන ගහපන්. Made by @supunma 🇱🇰
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -41,7 +39,7 @@ Hit help button to find out more about how to use me</b>""",
                                             "Channel", url="https://t.me/slbotzone")
                                     ],[
                                       InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "Source Code", url="https://github.com/supunmadurangasl/")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -65,7 +63,7 @@ Just send a Youtube url to download it in video or audio format!
                                             "About", callback_data="about"),
                                   ],[
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "Source Code", url="https://github.com/supunmadurangasl/")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -78,11 +76,11 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>About AnyDL Bot!</b>
 
-<b>♞ Developer:</b> <a href="https://t.me/supunma">supun 🇱🇰</a>
+<b>🖐️ Developer:</b> <a href="https://t.me/supunma">supun 🇱🇰</a>
 
-<b>♞ Support:</b> <a href="https://t.me/slbotzone">slbotzone</a>
+<b>🖐️ Support:</b> <a href="https://t.me/slbotzone">slbotzone</a>
 
-<b>♞ Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
+<b>🖐️Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
 <b>~ @slbotzone bot's</b>""",
      reply_markup=InlineKeyboardMarkup(

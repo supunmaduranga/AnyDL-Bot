@@ -28,7 +28,7 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>ලොකු හැලි ලියන්නේ නැ බොක්ක හැදුවේ සුපුන් මදුරංග ඔනේම youtube video & audio download කරන්න පුළුවන් මට, 😋😋 channel එක subscribe කලේ නැත්නම් තොට හෙන ගහපන්. Made by @supunma 🇱🇰
+               text="""<b>ලොකු හැලි ලියන්නේ නැ බොක්ක හැදුවේ සුපුන් මදුරංග ඔනේම youtube video & audio download කරන්න පුළුවන් මට, 😋😋 channel එක subscribe කලේ නැත්නම් තොට හෙන ගහපන්.  😂If you have not yet subscribed to my youtube channel you should be struck by lightning😕 . Made by @supunma 🇱🇰
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(

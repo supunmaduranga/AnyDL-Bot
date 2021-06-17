@@ -28,18 +28,18 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>ලොකු හැලි ලියන්නේ නැ බොක්ක හැදුවේ සුපුන් මදුරංග ඔනේම youtube video & audio download කරන්න පුළුවන් මට 😋😋 channel එක subscribe කලේ නැත්නම් තොට හෙන ගහපන්. Made by @supunma 🇱🇰
+               text="""<b>ලොකු හැලි ලියන්නේ නැ බොක්ක හැදුවේ සුපුන් මදුරංග ඔනේම youtube video & audio download කරන්න පුළුවන් මට, 😋😋 channel එක subscribe කලේ නැත්නම් තොට හෙන ගහපන්. Made by @supunma 🇱🇰
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Help", callback_data="help"),
+                                            " ⚒️Help⚒️", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/slbotzone")
+                                            "♈️ Support group ♈️", url="https://t.me/slbotzone")
                                     ],[
                                       InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/supunmadurangasl/")
+                                            "☢️subscribe youtube channel ☢️", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA?sub_confirmation=01")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
